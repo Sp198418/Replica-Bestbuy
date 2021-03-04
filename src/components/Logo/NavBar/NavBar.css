@@ -1,0 +1,9 @@
+.NavBar{
+    background-color: blue;
+    justify-content: space-between;
+
+}
+
+.Dropdowns{
+    justify-content: space-between;
+}
