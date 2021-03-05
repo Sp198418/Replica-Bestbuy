@@ -1,9 +1,35 @@
 .NavBar{
     background-color: blue;
     justify-content: space-between;
+    height: 80px;
+    position: relative;
+    
 
 }
 
 .Dropdowns{
     justify-content: space-between;
+}
+
+.items{
+    display: flex;
+    vertical-align: bottom;
+    padding:53px;
+     
+}
+
+#dropdown-variants-Products{
+ margin:5px
+}
+
+#dropdown-variants-Brands{
+    margin:5px;
+}
+
+#dropdown-variants-Deals{
+    margin:5px;
+}
+
+#dropdown-variants-Services{
+    margin:5px;
 }

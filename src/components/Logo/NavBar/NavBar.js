@@ -8,7 +8,7 @@ function NavBar() {
     return (
         <Row className="NavBar">
             <Col className = "Dropdowns">
-                <Row>
+                <Row className= "items">
                     {['Products', 'Brands', 'Deals', 'Services'].map(
                         (variant) => (
                             <DropdownButton
