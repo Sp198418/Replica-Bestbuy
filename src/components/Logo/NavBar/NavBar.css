@@ -1,35 +1,45 @@
 .NavBar{
-    background-color: blue;
+    background-color:#0046BE;
     justify-content: space-between;
-    height: 80px;
+    height: 100px;
     position: relative;
     
 
 }
 
-.Dropdowns{
-    justify-content: space-between;
-}
 
 .items{
     display: flex;
     vertical-align: bottom;
-    padding:53px;
+    padding:65px;
      
 }
 
 #dropdown-variants-Products{
- margin:5px
+ margin:5px;
+ font-weight: bold;
+ background-color: transparent;
+ color: white;
 }
 
 #dropdown-variants-Brands{
     margin:5px;
+    font-weight: bold;
+    background-color: transparent;
+    color: white;
 }
 
 #dropdown-variants-Deals{
     margin:5px;
+    font-weight: bold;
+    background-color: transparent;
+    color: white;
 }
 
 #dropdown-variants-Services{
     margin:5px;
+    font-weight: bold;
+    background-color: transparent;
+    color: white;
 }
+

@@ -1,4 +1,4 @@
-
+import Logo from '../../Logo/Logo';
 import './NavBar.css';
 import { Row, Col, Button, Dropdown, DropdownButton, ButtonGroup } from 'react-bootstrap'
 
@@ -6,7 +6,9 @@ import { Row, Col, Button, Dropdown, DropdownButton, ButtonGroup } from 'react-b
 
 function NavBar() {
     return (
+        
         <Row className="NavBar">
+            <Logo/>
             <Col className = "Dropdowns">
                 <Row className= "items">
                     {['Products', 'Brands', 'Deals', 'Services'].map(
