@@ -1,4 +1,5 @@
 import Logo from '../../Logo/Logo';
+import SearchBar from '../../Search';
 import './NavBar.css';
 import { Row, Col, Button, Dropdown, DropdownButton, ButtonGroup } from 'react-bootstrap'
 
@@ -9,6 +10,7 @@ function NavBar() {
        
         <Row className="NavBar">
             <Logo/>
+            <SearchBar/>
             <Col className = "Dropdowns">
                 
                 <Row className= "items">
