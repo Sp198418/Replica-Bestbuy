@@ -1,7 +1,7 @@
 import Logo from '../../Logo/Logo';
 import SearchBar from '../../Search';
 import './NavBar.css';
-import { Row, Col, Button, Dropdown, DropdownButton, ButtonGroup } from 'react-bootstrap'
+import { Row, Col, Button, Dropdown, DropdownButton, ButtonGroup } from 'react-bootstrap';
 
 
 
